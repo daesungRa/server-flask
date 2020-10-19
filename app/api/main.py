@@ -6,8 +6,8 @@ LOGGER = logging.getLogger(__name__)
 API = Blueprint('main', __name__, url_prefix='/')
 
 
-@API.route('/')
-def flask_main():
-    LOGGER.info('Call main!!')
-    return jsonify(data='Hello Flask~!')
+@API.route('test')
+def test():
+    LOGGER.info('Test call!!')
+    return jsonify(data='Hello, Flask~!')
 
