@@ -9,7 +9,7 @@ This is to provide a quick start to the Flask web application.
 
 ## Installation
 
-> Using 'python 3.6.8'.
+> At least python ```version 3.6``` or higher is recommended.
 
 > Clone this github project to your desktop root path.
 
@@ -44,5 +44,5 @@ This is to provide a quick start to the Flask web application.
 
 | Tool | Description | Version |
 |:--|:--|:--|
-| Python | Main lang | 3.6.8 |
+| Python | Main lang | 3.6 |
 
