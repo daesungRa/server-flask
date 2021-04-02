@@ -1,0 +1,13 @@
+# This file stores a series of secret values.
+# Maintainer. Ra Daesung (daesungra@gmail.com)
+
+
+VERSION: 0.0.1
+
+VAL:
+  sample.id:  # application sample id
+  sample.secret:  # application sample secret
+
+API:
+  url.sample.api1:  # api1
+  url.sample.api2:  # api2
