@@ -46,13 +46,23 @@ This is to provide a quick start to the Flask web application.
 #### Run as development mode
 
 ```shell
-(venv) /project/root/path $ FLASK_DEBUG=1 flask run
+# on ubuntu
+(venv) /project/root/path $ FLASK_DEBUG=1 FLASK_APP=[APP_NAME]/__init__.py flask run
+
+# on windows
+(venv) /project/root/path $ set FLASK_ENV=development
+(venv) /project/root/path $ set FLASK_APP=[APP_NAME]/__init__.py
+(venv) /project/root/path $ flask run
 ```
 
 #### Run as production
 
 ```shell
+# on ubuntu
 /project/root/path $ sh run_app.sh
+
+# on windows
+## run as development mode is recommanded.
 ```
 
 ## Activate pytest
@@ -66,4 +76,5 @@ This is to provide a quick start to the Flask web application.
 | Tool | Description | Version |
 |:--|:--|:--|
 | Python | Main lang | 3.6 |
+| Ubuntu | OS | 18.04 |
 
