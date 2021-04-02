@@ -48,12 +48,14 @@ htmlcov/
 .coverage
 .coverage.*
 .cache
+./**/.cache
 nosetests.xml
 coverage.xml
 *.cover
 *.py,cover
 .hypothesis/
 .pytest_cache/
+./**/.pytest_cache/
 pytestdebug.log
 test/
 ./**/test/
@@ -173,6 +175,7 @@ tags
 .idea/
 
 # logs
+logs/
 ./logs/
 ./**/logs/
 
@@ -184,3 +187,13 @@ XDG_CACHE_HOME/
 ./nohub.out
 ./**/nohub.out
 
+# nginx default config
+default
+./**/default
+
+# docker
+Dockerfile
+
+# config file
+*.yaml
+./**/*.yaml
