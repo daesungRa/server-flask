@@ -4,15 +4,17 @@ MAINTAINER Ra Daesung "daesungra@gmail.com"
 ### Write commands for flask docker image ###
 RUN mkdir -p /serve/server-flask
 
+### Create workdir and Deploy server source ###
 WORKDIR /serve/server-flask
-
 COPY . /serve/server-flask/
 
+### Set pip virtual environment ###
 RUN pip install --upgrade pip virtualenv
 RUN virtualenv venv && \
     . ./venv/bin/activate && \
     pip install -r requirements.txt
 
+### Default commands to be executed when instance starts ###
 CMD /bin/sh /serve/server-flask/run_app.sh
 
-EXPOSE 8000
+# EXPOSE 80
