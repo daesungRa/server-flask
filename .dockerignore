@@ -17,3 +17,8 @@ log/
 ./**/log/
 logs/
 ./**/logs/
+
+### Ignore local venv ###
+venv/
+venv/**
+
