@@ -21,4 +21,3 @@ logs/
 ### Ignore local venv ###
 venv/
 venv/**
-

@@ -77,4 +77,3 @@ This is to provide a quick start to the Flask web application.
 |:--|:--|:--|
 | Python | Main lang | 3.6 |
 | Ubuntu | OS | 18.04 |
-

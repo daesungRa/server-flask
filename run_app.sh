@@ -13,4 +13,3 @@ gunicorn --workers 1 \
 	--timeout 30 \
 	--name app \
 	app.server:app
-

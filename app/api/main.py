@@ -1,6 +1,6 @@
 import logging
 
-from flask import Flask,Blueprint, jsonify
+from flask import Flask, Blueprint, jsonify
 
 LOGGER = logging.getLogger(__name__)
 API = Blueprint('main', __name__, url_prefix='/')
@@ -16,4 +16,3 @@ def test():
 def main():
     LOGGER.info('Call main page!')
     return jsonify(data='This is main page!')
-

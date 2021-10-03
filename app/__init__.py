@@ -81,4 +81,3 @@ def register_error_pages(app: Flask):
     def server_side_error(error):
         LOGGER.error(error)
         return render_template('error/500.html'), 200
-

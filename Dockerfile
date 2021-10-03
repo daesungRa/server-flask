@@ -16,4 +16,3 @@ RUN virtualenv venv && \
 
 # Default commands to be executed when instance starts
 # CMD /bin/sh /serve/server-flask/run_app.sh
-
