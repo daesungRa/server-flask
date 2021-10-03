@@ -52,5 +52,6 @@ class Config:
 
 PROJECT_ROOT = Path(__file__).resolve().parent
 
-# Please insert APP_NAME for configuration. #
+# Please change 'APP_NAME' with the name you want to use. #
 # CONFIG = Config(PROJECT_ROOT / 'conf.d/[APP_NAME].yaml').config
+CONFIG = Config(PROJECT_ROOT / 'conf.d/apps.yaml').config

@@ -16,9 +16,9 @@ from flask import Flask
 from flask_cors import CORS
 
 from .flasklib import NamuFlask
-
-# import config  # TODO: Create default config file
 from app.api import main
+
+# from config import CONFIG  # TODO: Import CONFIG info if needed
 
 LOGGER = logging.getLogger(__name__)
 
