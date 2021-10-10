@@ -16,7 +16,7 @@ from flask import Flask
 from flask_cors import CORS
 
 from .flasklib import NamuFlask
-from app.api import main
+from .api import main
 
 # from config import CONFIG  # TODO: Import CONFIG info if needed
 
@@ -60,7 +60,7 @@ def set_logger():
     log_dir = project_root / 'logs'
     log_dir.mkdir(exist_ok=True)
     file_handler = TimedRotatingFileHandler(
-        filename=log_dir / 'app.log',
+        filename=log_dir / 'apps.log',
         when='midnight',
         interval=1,
         backupCount=100,
