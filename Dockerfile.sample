@@ -1,4 +1,6 @@
-FROM server-nginx:21.06.1
+# TODO: Set version number of base image > [VERSION-NO]
+# ex) FROM server-nginx:21.08.1
+FROM server-nginx:[VERSION-NO]
 MAINTAINER Ra Daesung "daesungra@gmail.com"
 
 ### Write commands for flask docker image ###
