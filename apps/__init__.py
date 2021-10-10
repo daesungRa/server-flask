@@ -16,7 +16,7 @@ from flask import Flask
 from flask_cors import CORS
 
 from .flasklib import NamuFlask
-from .api import main
+from .base.api.base import API as BASE_API
 
 # from config import CONFIG  # TODO: Import CONFIG info if needed
 
@@ -74,4 +74,4 @@ def set_logger():
 
 
 def register_blueprints(app: Flask):
-    app.register_blueprint(main.API)
+    app.register_blueprint(BASE_API)
